@@ -1,7 +1,7 @@
 # Function dependencies, for example:
 # version of the package might vary
 # package>=version
-
+# GCP automatically installs the mentioned dependencies
 sqlalchemy>=1.3
 
 pymysql>=0.9
