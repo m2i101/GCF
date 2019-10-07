@@ -7,7 +7,7 @@ from pymysql.err import OperationalError
 CONNECTION_NAME = getenv(
   'INSTANCE_CONNECTION_NAME',
   'round-fusion-229106:us-central1:sample')           #Project in the GCP
-DB_USER = getenv('MYSQL_USER', 'root')                # providing the usernamea and password of the GCP SQL instance
+DB_USER = getenv('MYSQL_USER', 'root')                # providing the username and password of the GCP SQL instance
 DB_PASSWORD = getenv('MYSQL_PASSWORD', 'root')
 DB_NAME = getenv('MYSQL_DATABASE', 'demo')
 
